@@ -1,0 +1,35 @@
+{
+  "name": "servidor-auditoria",
+  "version": "1.0.0",
+  "description": "Backend para Sistema de Auditoría de Accesibilidad Sensorial",
+  "main": "dist/servidor.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/servidor.ts",
+    "build": "tsc",
+    "start": "node dist/servidor.js"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cheerio": "^0.22.35",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^20.14.10",
+    "@types/pg": "^8.11.6",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
